@@ -24,8 +24,6 @@ function getBestColor(packagedChoices, backgroundRgb) {
 
     const choiceRL = relativeLuminance(choice.rgbArray);
     const choiceScore = luminanceScore(choiceRL, backgroundRL);
-    console.log(choice)
-    console.log(choiceScore)
     if (!bestColor.hasOwnProperty('score') || choiceScore > bestColor.score) {
       bestColor = {
         color: choice.original,
