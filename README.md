@@ -1,6 +1,13 @@
 # use-best-color 🎨‍
 
+[![npm](https://img.shields.io/npm/v/use-best-color.svg)](https://www.npmjs.com/package/use-best-color)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/use-best-color.svg)](https://www.npmjs.com/package/use-best-color)
+[![npm](https://img.shields.io/npm/dt/use-best-color.svg)](https://www.npmjs.com/package/use-best-color)
+[![GitHub](https://img.shields.io/github/license/zroyer/use-best-color.svg)](https://github.com/zroyer/use-best-color/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/zroyer/use-best-color/pulls)
+
 A [React Hook](https://reactjs.org/docs/hooks-intro.html) to use the most accessible text color
+
 
 ## Installation
 
