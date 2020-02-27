@@ -1,0 +1,25 @@
+{
+  "name": "use-best-color",
+  "version": "1.1.0",
+  "description": "A React Hook to use the most accessible text color",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && babel src --out-dir dist"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "accessibility"
+  ],
+  "peerDependencies": {
+    "react": "^16.13.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "author": "@zroyer",
+  "license": "ISC"
+}
