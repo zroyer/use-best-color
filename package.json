@@ -1,6 +1,6 @@
 {
   "name": "use-best-color",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "A React Hook to use the most accessible text color",
   "main": "dist/index.js",
   "scripts": {

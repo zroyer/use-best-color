@@ -6,7 +6,8 @@
 [![GitHub](https://img.shields.io/github/license/zroyer/use-best-color.svg)](https://github.com/zroyer/use-best-color/blob/master/LICENSE)
 [![GitHub](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/zroyer/use-best-color/pulls)
 
-A [React Hook](https://reactjs.org/docs/hooks-intro.html) to use the most [accessible](http://web-accessibility.carnegiemuseums.org/design/color/) text color. Compares a list of text color choices against an element's background color, and returns the color with the highest color contrast ratio.
+A [React Hook](https://reactjs.org/docs/hooks-intro.html) to use the most [accessible](http://web-accessibility.carnegiemuseums.org/design/color/) text color.  
+Compares a list of text color choices against an element's background color, and returns the color with the highest color contrast ratio.
 
 > WCAG (Web Content Accessibility Guidelines) ensure that content is accessible by everyone, regardless of disability or user device. To meet these standards, text and interactive elements should have a color contrast ratio of at least 4.5:1. This ensures that viewers who cannot see the full color spectrum are able to read the text.
 
@@ -20,7 +21,7 @@ $ npm i use-best-color
 ## Usage
 
 The `useBestColor` hook returns a tuple with two values:
-- A ref object to be passed to a DOM element
+- A `ref` object to be passed to a DOM element
   - This element's background color will be used in the color contrast ratio calculation
 - A `bestColor` object containing:
   - A `color` value, ready to be used in a style
