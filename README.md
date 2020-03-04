@@ -15,7 +15,7 @@ Compares a list of text color choices against an element's background color, and
 ## Installation
 
 ```
-$ npm i use-best-color
+$ npm install use-best-color
 ```
 
 ## Usage
